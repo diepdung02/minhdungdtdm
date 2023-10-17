@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 2.8cm;
+    width: 39.8cm;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.timkiem {
+    margin-left: 2cm;
+    margin-top: 0.3cm;
+}
+
+.timkiem input {
+    width: 8cm;
+    height: 1.2cm;
+    position: absolute;
+    border-radius: 0.5cm;
+}
+
+.timkiem input ::placeholder {
+    float: right;
+}
+
+.timkiem span {
+    color: rgb(0, 0, 0);
+    height: 1.2cm;
+    width: 2cm;
+    font-size: 0.7cm;
+    position: relative;
+    margin-left: 7cm;
+    line-height: 1.2cm;
+    border: 3px solid black;
+    border-radius: 1cm;
+    border-left: 3px solid red;
+    border-bottom: 3px solid red;
+    border-right: 3px solid blue;
+    border-top: 3px solid blue;
+}
+
+.menuheader div {
+    width: 2cm;
+}
+
+.menuheader div a {
+    color: white;
+    text-align: center;
+    line-height: 1.65cm;
+}
+
+.menuheader div a p {
+    width: 1.8cm;
+    height: 2cm;
+}
+
+.menuheader div a p:hover {
+    background-color: rgb(63, 63, 63);
+    color: rgb(35, 35, 255);
+}
+
+.menu {
+    position: fixed;
+    background-color: rgb(36, 0, 70);
+    margin-left: 5.5cm;
+    margin-top: 2.8cm;
+    height: 16.2cm;
+    width: 6cm;
+}
+
+.menu ul {
+    line-height: 1.2cm;
+    margin-right: 1.2cm;
+}
+
+.menu ul li a {
+    color: rgb(201, 163, 120);  
+    background-color: red;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.menu ul li a p:hover {
+    background-color: rgb(26, 1, 49);
+    color: rgb(76, 56, 255);
+}
+
+.noidung {
+    padding-top: 6cm;
+    margin-left: 11.5cm;
+    background-color: crimson;
+    height: 100cm;
+    max-width: 22.8cm;
+}
+.noidung audio{
+    background-blend-mode: color red;
+}
